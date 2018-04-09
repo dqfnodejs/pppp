@@ -12,12 +12,14 @@
     </div>
     
     <router-view/>
+		
+    
+
+		 
   </div>
 </template>
 <script>
-	export default {
-		
-	}
+
 </script>
 <style>
 *{
@@ -75,7 +77,16 @@
   outline: none;
 	color: #fff;
 }
-
+.footer{
+  width: 100%;
+  line-height: 80px;
+  color: #8d9095;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 80px;
+  background-color: #262626;
+  float: left;
+}
 </style>
 
 

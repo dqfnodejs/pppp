@@ -2,10 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Qxlp from './views/Qxlp.vue'
-import Eslp from './views/Elsp.vue'
-import Qxsp from './views/Qxsp.vue'
 import Lsdt from './views/Lsdt.vue'
 import Lxwm from './views/Lxwm.vue'
+import Dd from './views/Dd.vue'
+import Xinwenxiangqing from './views/xinwenxiangqing.vue'
 
 Vue.use(Router)
 
@@ -31,5 +31,10 @@ export default new Router({
       name: 'lxwm',
       component: Lxwm
     },
+    {
+      path: '/Dd/:id',
+      name: 'Dd',
+      component: Dd
+    }
   ]
 })
